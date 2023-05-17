@@ -14,18 +14,63 @@
     </div>
 </header><br><br><br><br><br>
 
+<script>
+    function procurar() {
+        var id = document.getElementById('id').value;
+        var produtos = [
+            { "id": "12345678" },
+            { "id": "23456789" },
+            { "id": "34567890" }
+        ];
+
+        if (id == produtos[0].id) {
+           window.alert("Produto encontrado!");
+           return redi();
+        } else if(id == produtos[1].id){
+            window.alert("Produto encontrado!");
+            return redi();
+        } else if(id == produtos[2].id){
+            window.alert("Produto encontrado!");
+            return redi();
+        }else {
+            window.alert("ID incorreto. Produto não encontrado.");
+
+        }
+        
+    
+    }
+
+    
+
+</script>
+
+
+<script>
+
+
+
+function redi() {event.preventDefault();
+        window.location.href="https://google.com";
+    }
+
+</script>
+
 <body>
     <h2> Encontre a melhor Batata aqui!!</h2><br><br>
     <h4>  VPP - Verificação de Processo do Produto</h4><br><br><br>
 
     <div class ="ident">
-        <form onsubmit="return calcular(event)">
+        <form onsubmit="return procurar()">
             <h3>Digite abaixo o ID do produto:</h3><br><br>
-            <input type="text" nome="ID:" id="ID:" placeholder="Exemplo: 000000000000" class="ID"><br><br>
+            <input type="text" nome="id" id="id" placeholder="Exemplo: 000000000000" class="ID"><br><br>
     
     
             <input type="submit" value="Pronto" class="Perfeito">
         </form>
+    </div>
+    <div id="resultado">
+
+
     </div>
 
 </body>
