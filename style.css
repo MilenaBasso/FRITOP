@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+header{
+    text-align: left;
+}
+
+body{
+    background-image: url(Fundo.png);
+    text-align: center;
+}
+
+.ID{
+    width: 250PX;
+    height: 40PX;
+    background-color: #FAFF00;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px #F2CB3F;
+    padding: 0px 10px;
+    color: grey;
+    font-size: 16px;
+    font-family: alice;
+}
+
+.Perfeito{
+    width: 250PX;
+    height: 40PX;
+    background-color: #FAFF00;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px #F2CB3F;
+    padding: 0px 10px;
+    color: grey;
+    font-size: 16px;
+    font-family: alice;
+}
+
+.Perfeito:hover{
+    background-color: #dee203;
+    box-shadow: 5px 5px #dbb83a;
+}
+
+h2{
+    font-family: alice;
+    font-size: 64px;
+}
+
+h4{
+    font-family: alice;
+    font-size: 32px;
+}
+
+h3{
+    font-family: alice;
+    font-size: 16px;
+}
+
+.logo{
+    padding: 10px;
+}
