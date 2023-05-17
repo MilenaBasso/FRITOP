@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<script>
+    function procurar() {
+        var id = document.getElementById('id').value;
+        var produtos = [
+            { "id": "12345678" },
+            { "id": "23456789" },
+            { "id": "34567890" }
+        ];
+
+        if (id == produtos[0].id) {
+           
+            window.location = "http://www.yoururl.com";
+        } else {
+            window.alert("ID incorreto. Produto não encontrado.");
+        }
+    }
+
+    function gerarbotoresultado() {
+        var resultado = procurar();
+
+        if (resultado) {
+            var botao = document.createElement("button");
+            botao.textContent = "Próximo";
+            document.body.appendChild(botao);
+        }
+    }
+</script>
+
+<body>
+    <!-- COMEÇO CABEÇALHO -->
+    <header>
+
+    </header>
+    <!-- COMEÇO CORPO -->
+    <main>
+        <form onsubmit="return procurar()">
+            <input type="text" id="id" placeholder="Digite o ID" />
+            <input type="submit" value="Pronto"></input>
+        </form>
+    </main>
+    <!-- COMEÇO RODAPE -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
