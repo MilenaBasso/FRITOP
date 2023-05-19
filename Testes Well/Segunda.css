@@ -147,7 +147,7 @@ html{
 }
 #finalizar:checked ~ .progress > .progress-bar{
     width: 100%;
-    background: #6d0000;
+    background: #00FF00;
 }
 
 .radio{
@@ -158,18 +158,18 @@ html{
     border-radius: 100%;
     -webkit-appearance: none;
     appearance: none;
-    background-color: #FAFF00;
-    border: 1px solid #F2CB3F;
+    background-color: #FF0000;
+    border: 20px solid #FAFF00;
 }
 
 .radio:checked{
     border: 20px solid #FAFF00;
-    background-color: #16FF02;
+    background-color: #00FF00;
 }
 
 .radio:hover{
-    background-color: #F2CB3F;
-    border: 1px solid #DBB83A;
+    background-color: #00FF00;
+    border: 20px solid #F2CB3F;
 }
 
 
@@ -186,10 +186,39 @@ html{
     padding: 5px 0px;
     font-size: 20px;
     font-family: alice;
+    color: #0066FF;
 } 
 
 .thingss{
     padding: 10px 0px;
     font-size: 16px;
     font-family: alice;
+    color: #0066FF;
+}
+
+select{
+    width: 350px;
+    height: 40px;
+    background-color: #FAFF00;
+    border: 1px solid #F2CB3F;
+    padding: 0px 10px;
+    font-size: 25px;
+    font-family: alice;
+    color: #0066FF;
+}
+
+.salete{
+    text-align: right;
+}
+
+.botone{
+    width: 350px;
+    height: 40px;
+    background-color: #FAFF00;
+    border: 1px solid #F2CB3F;
+    padding: 0px 10px;
+    font-size: 25px;
+    font-family: alice;
+    color: #0066FF;
+
 }
