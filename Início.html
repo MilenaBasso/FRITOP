@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"content="IE-edge">
+        <meta name="viewport" content="width=devide-eidth, initial-scale=1.0">
+        <title>Fritop</title>
+        <link rel =stylesheet href="Início.css"></head>
+    </head>
+
+    <body>     
+        <header>
+            <div class ="logo">
+                <img src="./ImagensInício/Fritop.png">
+            </div>
+        </header><br><br><br><br><br>
+
+        <main>
+            <h2> Encontre a melhor Batata aqui!!</h2><br><br>
+            <h4>  VPP - Verificação de Processo do Produto</h4><br><br><br>
+
+            <div class ="ident">
+                <form onsubmit="return procurar()">
+                    <h3>Digite abaixo o ID do Lote:</h3><br><br>
+
+                    <input type="text" nome="id" id="id" placeholder="Exemplo: 00000000" class="ID"><br><br>
+
+                    <input type="submit" value="Pronto" class="Perfeito">
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <img src="./ImagensInício/Salgadinhos.png">
+        </footer>
+
+        <script>
+            function procurar() {
+                var id = document.getElementById('id').value;
+                var produtos = [
+                    { "id": "12345678" },
+                    { "id": "23456789" },
+                    { "id": "34567890" }
+                ];
+
+                if (id == produtos[0].id) {
+                window.alert("Lote encontrado!");
+                return redi();
+                } else if(id == produtos[1].id) {
+                    window.alert("Lote encontrado!");
+                    return redi();
+                } else if(id == produtos[2].id) {
+                    window.alert("Lote encontrado!");
+                    return redi();
+                }else {
+                    window.alert("ID incorreto. Lote não encontrado.");
+                }   
+            }
+
+            function redi() {event.preventDefault();
+                window.location.href="https://google.com";
+            }
+        </script>
+    </body>
+</html>
+  
+
+
+        

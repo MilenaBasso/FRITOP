@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #FAFF00;
+    height: 140px;
+    border-bottom: 10px solid #FF0202;
+    display: flex;
+}
+
+main{
+    text-align: center;
+    width: 1150px;
+    position: relative;
+    margin: 0 auto;
+}
+
+html{
+    background-image: url(./ImagensSegunda/Fundo.png);
+}
+
+#batatas{
+    float: left;
+    width: 9%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#escrita{
+    float: left;
+    width: 79%;
+    padding: 25px 0px;
+    font-family: alice;
+}
+
+#logo {
+    float: right;
+    width: 12%;
+    padding: 10px;
+}
+
+.qualidade{
+    font-size: 30px;
+    font-family: alice;
+    color: #0066FF; 
+}
+
+.vpp{
+    font-size: 40px;
+    font-family: alice;
+    color: #0066FF;
+}
+
+.caixinha{
+    text-align: center;
+}
+
+.aviso{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    background-color: #FAFF00;
+    border: 1px solid #F2CB3F;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: alice;
+    color: #0066FF;
+}
+
+
+.container .progress{
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.progress{
+    padding: 4px;
+    background: #FAFF00;
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 1px #FAFF00, 0 1px #F2CB3F;
+    box-shadow: inset 0 1px 1px #FAFF00, 0 1px #F2CB3F;
+}
+
+.progress-bar{
+    height: 20px;
+    border-radius: 4px;
+    background-color: -webkit-#F2CB3F;
+    background-color: -moz-#F2CB3F;
+    background-color: -o-#F2CB3F;
+    background-color: #F2CB3F;
+
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: widht, background-color;
+    -moz-transition-property: widht, background-color;
+    -o-transition-property: widht, background-color;
+    transition-property: widht, background-color;
+
+    -webkit-box-shadow: inset 0 1px 1px #FAFF00, 0 1px #F2CB3F;
+    box-shadow: inset 0 1px 1px #FAFF00, 0 1px #F2CB3F;
+
+}
+
+#lavagem:checked ~ .progress > .progress-bar{
+    width: 10%;
+    background: #FF0202;
+}
+#descascar:checked ~ .progress > .progress-bar{
+    width: 20%;
+    background: #FF0202;
+}
+#cortar:checked ~ .progress > .progress-bar{
+    width: 30%;
+    background: #FF0202;
+}
+#fritar:checked ~ .progress > .progress-bar{
+    width: 40%;
+    background: #FF0202;
+}
+#temperar:checked ~ .progress > .progress-bar{
+    width: 50%;
+    background: #FF0202;
+}
+#pesar:checked ~ .progress > .progress-bar{
+    width: 60%;
+    background: #FF0202;
+}
+#temperatura:checked ~ .progress > .progress-bar{
+    width: 70%;
+    background: #FF0202;
+}
+#lacrar:checked ~ .progress > .progress-bar{
+    width: 80%;
+    background: #FF0202;
+}
+#outra-porque-sim:checked ~ .progress > .progress-bar{
+    width: 90%;
+    background: #FF0202;
+}
+#finalizar:checked ~ .progress > .progress-bar{
+    width: 100%;
+    background: #6d0000;
+}
+
+.radio{
+    cursor: pointer;
+    width: 70px;
+    height: 60px;
+    border: 1x solid #DBB83A;
+    border-radius: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #FAFF00;
+    border: 1px solid #F2CB3F;
+}
+
+.radio:checked{
+    border: 20px solid #FAFF00;
+    background-color: #16FF02;
+}
+
+.radio:hover{
+    background-color: #F2CB3F;
+    border: 1px solid #DBB83A;
+}
+
+
+.label{
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    background-color: #FAFF00;
+    border: 1px solid #F2CB3F;
+    margin-top: 100px;
+}
+
+.things{
+    padding: 5px 0px;
+    font-size: 20px;
+    font-family: alice;
+} 
+
+.thingss{
+    padding: 10px 0px;
+    font-size: 16px;
+    font-family: alice;
+}
