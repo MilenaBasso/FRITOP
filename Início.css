@@ -15,7 +15,7 @@ body{
 }
 
 .ID{
-    width: 250PX;
+    width: 300PX;
     height: 40PX;
     background-color: #FAFF00;
     border: none;
@@ -43,6 +43,8 @@ body{
 .Perfeito:hover{
     background-color: #dee203;
     box-shadow: 5px 5px #dbb83a;
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 h2{
