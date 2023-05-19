@@ -24,7 +24,6 @@ main{
     text-align: center;
 }
 
-
 html{
     background-image: url(./ImagensSegunda/Fundo.png);
 }
@@ -244,9 +243,10 @@ select{
     transition: all 0.5s;
 }
 
-.Rodape {
 
- width: 105%;
- position: absolute;
- margin-top: 5%;   
+footer{
+    width: 100%;
+    position: absolute;
+    margin-top: 25%;   
 }
+   

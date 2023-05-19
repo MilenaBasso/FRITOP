@@ -65,3 +65,11 @@ h3{
 .logo{
     padding: 10px;
 }
+
+.rodape {
+
+    width: 105%;
+    position: absolute;
+    margin-top: 5%;   
+}
+   
