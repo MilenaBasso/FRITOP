@@ -243,3 +243,10 @@ select{
     transform: scale(1.1);
     transition: all 0.5s;
 }
+
+.Rodape {
+
+ width: 105%;
+ position: absolute;
+ margin-top: 5%;   
+}
