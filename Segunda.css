@@ -217,8 +217,11 @@ select{
 }
 
 .salete{
-    text-align: right;
+    position: absolute;
+    margin-left: 1440px;
+    margin-top: 30px;
 }
+
 
 .Perfeito{
     width: 220PX;
@@ -233,8 +236,8 @@ select{
     font-family: alice;
     text-align: center;
     position: absolute;
-    left: 85%;
-    bottom: 60%;
+    left: 1510px;
+    bottom: 68%;
     
 }
 
@@ -244,3 +247,22 @@ select{
     transform: scale(1.1);
     transition: all 0.5s;
 }
+
+.relatorio{
+    width: 275px;
+    background-color: #FAFF00;
+    border-radius: 16px;
+    box-shadow: 5px 5px #F2CB3F;
+    position: absolute;
+    margin-left: 1480px;
+    margin-top: 200px;
+}
+
+.topicos{
+    color: #0066FF;
+    font-size: 25px;
+    font-family: alice;
+    text-align: left;
+    padding: 0px 10px;
+}
+
