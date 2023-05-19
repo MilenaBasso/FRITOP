@@ -24,8 +24,10 @@ main{
     text-align: center;
 }
 
-html{
-    background-image: url(./ImagensSegunda/Fundo.png);
+
+body{
+    background-image: url(./ImagensInício/Fundo.png);
+    text-align: center;
 }
 
 #batatas{
@@ -243,10 +245,9 @@ select{
     transition: all 0.5s;
 }
 
+.Rodape {
 
-footer{
-    width: 100%;
-    position: absolute;
-    margin-top: 25%;   
+ width: 105%;
+ position: absolute;
+ margin-top: 5%;   
 }
-   
