@@ -26,7 +26,7 @@ main{
 
 
 body{
-    background-image: url(./ImagensInício/Fundo.png);
+    background-image: url(./images/Fundo.png);
     text-align: center;
 }
 
@@ -243,4 +243,12 @@ select{
     box-shadow: 5px 5px #dbb83a;
     transform: scale(1.1);
     transition: all 0.5s;
+}
+
+
+.Rodape{
+    width: 100%;
+    position:absolute ;
+    margin-left: 0px;
+    margin-top: 28%;
 }
